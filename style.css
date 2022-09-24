@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: bisque;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+img{
+    width: 100px;
+    
+}
